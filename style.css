@@ -9,7 +9,7 @@
    border:2px solid #656D59;
    padding:2%;
    margin:2%;
-   box-shadow:3px 3px 3px #ddd;
+   box-shadow:3px 3px 3px #FFFF00;
  }
  img{
    width:200px;
@@ -22,25 +22,117 @@ h3{
   text-align:center;
 }
 
-a{
+.a{
   display:block;
 text-align:center;
 text-decoration:none;
 background:#656D59;
 color:#fff;
-padding:2%
+padding:2%;
 }
 .leftchild
 {
   width:30%;
-  border:2px solid #ddd;
+  border:2px solid #008000;
   padding:2%;
   margin:2%;
 }
 .rightchild
 {
   width:70%;
-  border:2px solid #ddd;
+  border:2px solid #00FF00;
   padding:2%;
-  margin:2%
+  margin:2%;
+}
+img{
+  width:200px;
+  height:200px;
+  border-radius:30%;
+  border:2px solid #9BE118;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+a{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+}
+.mail{
+  text-decoration:none;
+  font-size:25px;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .parent
+  {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+   }
+
+
+  .leftchild
+  {
+    width:100%;
+    border:2px solid #008000;
+    padding:2%;
+    margin:2%;
+  }
+  .rightchild
+  {
+    width:100%;
+    border:2px solid #00FF00;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+  .parent
+  {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   }
+
+
+  .leftchild
+  {
+    width:92%;
+    border:2px solid #008000;
+    padding:2%;
+    margin:2%;
+  }
+  .rightchild
+  {
+    width:92%;
+    border:2px solid #00FF00;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+  .parent
+  {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+   }
+
+  .leftchild
+  {
+    width:42%;
+    border:2px solid #008000;
+    padding:2%;
+    margin:2%;
+  }
+  .rightchild
+  {
+    width:42%;
+    border:2px solid #008000;
+    padding:2%;
+    margin:2%;
+  }
 }
