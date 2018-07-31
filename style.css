@@ -74,14 +74,14 @@ a{
 
   .leftchild
   {
-    width:100%;
+    width:92%;
     border:2px solid #008000;
     padding:2%;
     margin:2%;
   }
   .rightchild
   {
-    width:100%;
+    width:92%;
     border:2px solid #00FF00;
     padding:2%;
     margin:2%;
@@ -92,7 +92,7 @@ a{
   .parent
   {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: center;
    }
 
