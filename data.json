@@ -22,7 +22,7 @@
   ],
    "skills":[
 
-    {
+  {
       "title":"programming languages",
       "set":["java","c","python","c++"]
     },
@@ -39,5 +39,16 @@
     "set":["windows","dos","linux","mac"]
   }
 
-  ]
+],
+"achievments":[
+{
+  "achievedData":"Got 1<sup>st</sup> prize in ppt presentation."
+},
+{
+    "achievedData":"Got 1<sup>st</sup> prize in technical quiz."
+  },
+{
+    "achievedData":"Got 2<sup>nd</sup> prize in eassy writing compitition."
+}
+]
 }

@@ -35,6 +35,7 @@ fetchedData.then(data=>{
   career(data.career);
   education(data.education);
   skills(data.skills);
+  achievments(data.achievments);
 
 })
 var child2=document.querySelector("#child2");
@@ -88,4 +89,21 @@ function skills(skill){
     list.appendChild(listItem);
   }
 }
+}
+//achievements
+function achievments(achievment){
+var heading=document.createElement("h1");
+heading.textContent="Achievements:";
+child2.appendChild(heading);
+var hr=document.createElement("hr");
+heading.appendChild(hr);
+var list=document.createElement("ul");
+child2.appendChild(list);
+var i=0;
+var listItem="";
+while (i<achievment.length) {
+listItem+="<li>"+achievment[i].achievedData+"</li>";
+  i++;
+}
+list.innerHTML=listItem;
 }
