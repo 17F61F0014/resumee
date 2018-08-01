@@ -1,5 +1,22 @@
 {
   "career":{
     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-  }
+  },
+  "education":[
+    {
+      "degree":"Bsc(computer science )",
+      "institute":"AGR college of arts and sciences",
+      "data":["2014-2017","80"]
+    },
+    {
+      "degree":"intermediate(m.p.c)",
+      "institute":"kuppam junior collge",
+      "data":["2012-2014","84"]
+    },
+    {
+      "ssc":"s.s.c",
+      "institute":"ZPHS Rallabudugur",
+      "data":["2012","97"]
+    }
+  ]
 }
