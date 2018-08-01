@@ -1,3 +1,6 @@
+tr:nth-child(even){
+  background:#ddd;
+}
 .parent
 {
   display:flex;
